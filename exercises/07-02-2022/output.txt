@@ -1,0 +1,1 @@
+[('Met', 'Ser', 'Ala', 'His', 'Leu', 'Cys', 'Ser'), 6]

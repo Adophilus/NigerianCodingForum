@@ -67,9 +67,9 @@ proteinsMapping = {
 
 stop_codon = "---"
 
-def processProteinChain (proteinChain):
+def processProteinChain(proteinChain):
     chain_length = len(proteinChain)
-    proteins = list()
+    proteins = []
     i = 0
     for j in range(3, chain_length, 3):
         protein = proteinsMapping[proteinChain[i:j]]
